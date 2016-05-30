@@ -2430,17 +2430,17 @@ var Tabs = React.createClass({
         ),
       // Display Fairness tab even to guests so that they're aware that
       // this casino has one.
-    //  !config.recaptcha_sitekey ? '' :
-    //    el.li(
-      //    {className: worldStore.state.currTab === 'FAIRNESS' ? 'active' : ''},
-      //    el.a(
-     //       {
-     //         href: 'javascript:void(0)',
-     //         onClick: this._makeTabChangeHandler('FAIRNESS')
-      //      },
-      //      el.span(null, 'Help & Fairness ')
-      //    )
-      //  ),
+     !config.recaptcha_sitekey ? '' :
+        el.li(
+          {className: worldStore.state.currTab === 'FAIRNESS' ? 'active' : ''},
+          el.a(
+          {
+             href: 'javascript:void(0)',
+              onClick: this._makeTabChangeHandler('FAIRNESS')
+            },
+           el.span(null, 'How to play ')
+          )
+        ),
       // Display faucet tab even to guests so that they're aware that
       // this casino has one.
       !config.recaptcha_sitekey ? '' :
