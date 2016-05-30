@@ -4,9 +4,9 @@
 
 var config = {
   // - Your app's id on moneypot.com
-  app_id: 1151,                             // <----------------------------- EDIT ME!
+  app_id: 1174,                             // <----------------------------- EDIT ME!
   // - Displayed in the navbar
-  app_name: 'Auto Bet Dice',
+  app_name: 'moneydice',
   // - For your faucet to work, you must register your site at Recaptcha
   // - https://www.google.com/recaptcha/intro/index.html
   //recaptcha_sitekey: '6LdThCATAAAAANmnseWXcIaTCK90h6PllpY6ilKp',  // <----- EDIT ME!
@@ -15,10 +15,10 @@ var config = {
   mp_api_uri: 'https://api.moneypot.com',
   chat_uri: '//socket.moneypot.com',
   // - Show debug output only if running on localhost
- // debug: isRunningLocally(),
+  debug: isRunningLocally(),
   // - Set this to true if you want users that come to http:// to be redirected
   //   to https://
- // force_https_redirect: !isRunningLocally(),
+ force_https_redirect: !isRunningLocally(),
   // - Configure the house edge (default is 1%)
   //   Must be between 0.0 (0%) and 1.0 (100%)
   house_edge: 0.0079,
