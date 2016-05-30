@@ -2562,7 +2562,7 @@ var FairnessTabContent = React.createClass({
       innerNode = el.p(
        {className: 'navbar-text'},
 			  el.p({className: 'lead'}, " "),
-			  el.p({className: 'lead'}, "Welcome to Auto Bet Dice"),
+			  el.p({className: 'lead'}, "Welcome"),
 			  el.p({className: 'lead'}, "How do I fund my account?"),
 			  el.p(null, "In order to play you will need a balance.  You can use the free faucet to try out some bets for free or you can fund your MoneyPot account.  You will need to sign-up for a free account with MoneyPot in order to play here.  After you have created an account you add the Auto Bet Dice casino app to you MoneyPot account.  Under your MoneyPot account page, you can find the deposit button to generate a new BTC deposit address.  Deposits are available to you after 1 confirmation.  Once your account is funded you can click on deposit from inside the app to bring coins over to play with."),
 			  el.p({className: 'lead'}, "How do I play?"),
