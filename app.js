@@ -9,7 +9,7 @@ var config = {
   app_name: 'moneydice',
   // - For your faucet to work, you must register your site at Recaptcha
   // - https://www.google.com/recaptcha/intro/index.html
-  //recaptcha_sitekey: '6LdThCATAAAAANmnseWXcIaTCK90h6PllpY6ilKp',  // <----- EDIT ME!
+  recaptcha_sitekey: '6LdThCATAAAAANmnseWXcIaTCK90h6PllpY6ilKp',  // <----- EDIT ME!
   redirect_uri: 'https://moneydice.github.io',
   mp_browser_uri: 'https://www.moneypot.com',
   mp_api_uri: 'https://api.moneypot.com',
@@ -537,8 +537,8 @@ var betStore = new Store('bet', {
     error: undefined
   },
   clientSeed: {
-    str: '6969',
-    num: 6969,
+    str: '6912',
+    num: 6912,
     error:void 0
   },
   showAutomaticRoll: false,
